@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* Estilos del encabezado */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+}
+
+.header-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header-links {
+  display: flex;
+}
+
+.header-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.header-links a:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url("../img/riot3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.products-section {
+  margin-top: 30px;
+}
+
+.card-body {
+  background-color: #333;
+}
+
+.card-text {
+  color: white;
+}
+
+.company-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.726); /* Fondo semitransparente */
+  color: rgb(255, 255, 255);
+}
+
+.company-name h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.company-description p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  max-width: 600px;
+}
+
+.contact-section {
+  padding: 50px 0;
+  background-color: transparent;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
+  text-align: center;
+}
+
+.contact-info {
+  background-color: white; /* Fondo blanco para la caja de información */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contact-icon img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-icons img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */
