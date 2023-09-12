@@ -1,3 +1,4 @@
+@import "variables";
 .contact-section {
     padding: 50px 0;
     background-color: transparent;
@@ -14,7 +15,7 @@
 }
 
 .contact-info {
-    background-color: white; /* Fondo blanco para la caja de información */
+    background-color: $color; /* Fondo blanco para la caja de información */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);

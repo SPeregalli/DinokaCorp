@@ -1,4 +1,5 @@
-/* Estilos del encabezado */
+@import "variables";
+
 .header {
     display: flex;
     align-items: center;
@@ -27,7 +28,7 @@
 
 .header-links {
     a {
-        color: white;
+        color: $color;
         text-decoration: none;
         margin: 0 10px;
         transition: transform 0.3s ease-in-out;
