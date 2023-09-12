@@ -10,13 +10,18 @@
     color: rgb(255, 255, 255);
 }
 
-.company-name h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
+.company-name {
+    h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
 }
 
-.company-description p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    max-width: 600px;
+
+.company-description {
+    p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        max-width: 600px;
+    }
 }
